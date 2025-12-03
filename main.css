@@ -757,6 +757,17 @@ h3 {
 .mobile_imges img:nth-of-type(7) {
 }
 
+.mobile {
+  overflow: hidden;
+}
+
+.mobile_imges {
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  white-space: nowrap;
+  position: absolute;
+}
 
 .shadow_top {
   position: absolute;
