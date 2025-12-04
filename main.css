@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 * {
@@ -14,18 +14,35 @@ h3 {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .noblesse {
+  margin: 0 auto;
+}
+
+/* 공통 container */
+
+.container {
+  width: 100%;
   max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 22px;
+  padding-right: 22px;
+  box-sizing: border-box;
 }
 
 /* section1 */
 
 .main {
   position: fixed;
-  top: 0;
-  z-index: -1;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 
 .main_background {
@@ -34,7 +51,6 @@ h3 {
   background-image: url(img/mask-group.png);
   background-size: cover;
   position: absolute;
-  z-index: -1;
   /* filter: brightness(0.7); */
 }
 
@@ -738,23 +754,8 @@ h3 {
   padding-top: 6rem;
 }
 
-.mobile_imges img:nth-of-type(3) {
-
-}
-
 .mobile_imges img:nth-of-type(4) {
   padding-top: 8.5rem;
-}
-
-.mobile_imges img:nth-of-type(5) {
-  
-}
-
-.mobile_imges img:nth-of-type(6) {
-  
-}
-
-.mobile_imges img:nth-of-type(7) {
 }
 
 .mobile {
@@ -867,3 +868,48 @@ h3 {
   color: #6a6a6a;
 }
 
+/* Scroll to Top Button */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 2.5rem;     
+  right: 2.5rem;      
+  width: 2.5rem; 
+  height: 2.5rem;   
+  border-radius: 50%;
+  border: 1.5px solid #000;
+  background: #ffffff;
+  color: #000;
+  font-size: 1.2rem; 
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.scroll-to-top.hide {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(1.25rem); 
+}
+
+/* 반응형 */
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 767.98px) {
+
+}
+
+@media screen and (max-width: 575.98px) {
+
+}
