@@ -263,7 +263,7 @@ gsap.from("img[src='img/md_front.png']", {
   ease: "power3.out",
   scrollTrigger: {
     trigger: "img[src='img/md_front.png']",
-    start: "top 60%",
+    start: "top 70%",
     toggleActions: "restart none none none"  
   }
 });
