@@ -572,7 +572,6 @@ img {
   position: absolute;
   bottom: 9.7%;
   right: 32.2%;
-
 }
 
 .color_box div:nth-of-type(2) h3 {
@@ -923,15 +922,17 @@ img {
   }
 
   .main_textbox2  {
-    transform: translate(-3rem, 7.9rem);
+    position: absolute;
+    bottom: 10%;
+    left: -12%;
   }
 
   .main_textbox2 p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
 
   .main_textbox2 h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
 
   .props_wrap {
@@ -1018,5 +1019,278 @@ img {
 
   .sider_subtext_box p:nth-of-type(2) {
     font-size: 0.6rem;
+  }
+
+  .design_container {
+    flex-direction: column;
+  }
+
+  .design_text {
+  font-size: 1.5rem;
+  left: 25.5%;
+  }
+
+  .sum_container {
+    gap: 2rem;
+    top: 15%;
+    right: 12%;
+  }
+
+  .sum_container h3 {
+    font-size: 0.9rem;
+  }
+
+  .sum_container > div:nth-of-type(1) h3::before,
+  .sum_container > div:nth-of-type(2) h3::before,
+  .sum_container > div:nth-of-type(3) h3::before {
+    font-size: 0.7rem;
+  }
+
+  .trandy_wrap img {
+    width: 8rem;
+    height: 10rem;
+  }
+
+  .trandy_wrap {
+    left: 33%;
+  }
+
+  .trandy_wrap > div h3::before {
+    font-size: 0.7rem;
+    left: -6.5%;
+  }
+
+  .unique_img {
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+
+  .unique_wrap {
+    top: 41%;
+    left: 9%;
+    gap: 1.5rem;
+  }
+
+  .unique_wrap > div h3::before {
+    left: -8%;
+    font-size: 0.7rem;
+  }
+
+  .edit_img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .edit_wrap {
+    gap: 1.5rem;
+    bottom: 20%;
+    left: 16%;
+  }
+
+  .edit_wrap > div h3::before {
+    font-size: 0.7rem;
+    left: -9%;
+    top: 3%;
+  }
+
+  .trandy_wrap h3, 
+  .unique_wrap h3,
+  .edit_wrap h3 {
+  font-size: 1rem;
+  }
+
+  .trandy_wrap p,
+  .unique_wrap p,
+  .edit_wrap p {
+  font-size: 0.5rem;
+  }
+
+  .design_system_wrap {
+    display: flex;
+    gap: 7rem;
+    align-items: center;
+    margin-left: 5.8rem;
+    padding-top: 3rem;
+  }
+  
+  .design_system_wrap {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-left: 1%;
+    padding-top: 1.8rem;
+  }
+
+  .design_system_wrap h3 {
+    font-size: 1rem;
+  }
+  
+  .design_system_wrap p {
+    font-size: 0.5rem;
+  }
+
+  .bottom_line {
+    width: 100%;
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  .montserrat {
+    position: absolute;
+    left: 1%;
+    top: 18%;
+  }
+
+  .montserrat h2 {
+    font-size: 2rem;
+    transform: translateX(0.2rem);
+  }
+
+  .montserrat h2::before {
+    left: 0.5%;
+    top: -20%;
+    font-size: 0.7rem;
+  }
+
+  .montserrat p:nth-of-type(1) {
+    font-size: 0.8rem;
+  }
+  
+  .montserrat p:nth-of-type(2) {
+    font-size: 0.7rem;
+  }
+
+
+  .born {
+    position: absolute;
+    left: 1%;
+    top: 35%;
+  }
+
+  .born h2 {
+    font-size: 2rem;
+    transform: translateX(0.2rem);
+  }
+
+  .born h2::before {
+    left: 1.2%;
+    top: -10.5%;
+    font-size: 0.7rem;
+  }
+
+  .born p:nth-of-type(1) {
+    font-size: 0.8rem;
+  }
+  
+  .born p:nth-of-type(2) {
+    font-size: 0.7rem;
+  }
+
+  .color_box div:nth-of-type(1) {
+    width: 10rem;
+    height: 10rem;
+    top: 53%;
+    left: 2%;
+  }
+
+  .color_box div:nth-of-type(2) {
+    bottom: 9%;
+    left: 2%;
+  }
+
+  .color_box div:nth-of-type(3) {
+    bottom: 9%;
+    left: 32%;
+  }
+
+  /* section7 */
+
+  .main_page h3 {
+    top: 2%;
+    left: 13.5%;
+  }
+
+  .main_page img:nth-of-type(1) {
+    width: 20rem;
+  }
+
+  .main_page img:nth-of-type(2) {
+    width: 8rem;
+    top: 15%;
+    right: 3.5%;
+  }
+
+  .main_page img:nth-of-type(3) {
+    width: 8rem;
+    top: 39%;
+    left: 3.5%;
+  }
+  
+  .main_page img:nth-of-type(4) {
+    width: 7rem;
+    bottom: 16%;
+    right: 35.5%;
+  }
+
+  .main_page img:nth-of-type(5) {
+    width: 7rem;
+    bottom: 16%;
+    right: 7.2%;
+  }
+
+  .md_page h3 {
+    top: 5%;
+    left: 13.5%;
+  }
+
+  .md_page img:nth-of-type(2) {
+    width: 85%;
+    height: 17rem;
+  }
+
+  .mobile_imges img:nth-of-type(1),
+  .mobile_imges img:nth-of-type(2),
+  .mobile_imges img:nth-of-type(3),
+  .mobile_imges img:nth-of-type(4),
+  .mobile_imges img:nth-of-type(5) {
+    width: 17rem;
+    height: 35rem;
+  }
+
+  .mobile_imges {
+    margin-top: 13rem;
+  }
+
+  .kitchen {
+    font-size: 1.2rem;
+  }
+
+  .kitchen_img {
+    width: 3rem;
+    height: 2rem;
+    vertical-align: -1rem;
+  }
+
+  .pet {
+    font-size: 0.9rem;
+  }
+
+  .pet_img {
+    width: 3rem;
+    height: 2rem;
+  }
+
+  .lighting_img {
+    width: 3.3rem;
+    height: 3.6rem;
+  }
+
+  .beauty {
+    font-size: 1.2rem;
+  }
+
+  .beauty_img {
+    width: 2rem;
+    height: 4rem;
   }
 }
