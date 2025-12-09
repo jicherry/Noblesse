@@ -1,42 +1,42 @@
 gsap.registerPlugin(ScrollTrigger);
 
 // main_textbox1 등장
-// const mainTextTl = gsap.timeline({
-//   scrollTrigger: {
-//     trigger: ".main_textbox1",
-//     start: "top 80%",
-//     toggleActions: "restart none none none"
-//   }
-// });
+const mainTextTl = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".main_textbox1",
+    start: "top 80%",
+    toggleActions: "restart none none none"
+  }
+});
 
-// mainTextTl
-// .from(".main_top_text", {
-//   x: 150,
-//   opacity: 0,
-//   duration: 0.9,
-//   ease: "power3.out"
-// })
-// .from(".main_middle_text", {
-//   x: 150,
-//   opacity: 0,
-//   duration: 0.9,
-//   ease: "power3.out"
-// }, "-=0.3") 
+mainTextTl
+.from(".main_top_text", {
+  x: 150,
+  opacity: 0,
+  duration: 0.9,
+  ease: "power3.out"
+})
+.from(".main_middle_text", {
+  x: 150,
+  opacity: 0,
+  duration: 0.9,
+  ease: "power3.out"
+}, "-=0.3") 
 
-// .from(".main_textbox2", {
-//   x: -150,
-//   opacity: 0,
-//   duration: 1,
-//   ease: "power3.out"
-// }, "-=0.2")
+.from(".main_textbox2", {
+  x: -150,
+  opacity: 0,
+  duration: 1,
+  ease: "power3.out"
+}, "-=0.2")
 
-// .add(() => {
-//   gsap.to(window, {
-//     duration: 0.6,
-//     scrollTo: ".high_end",
-//     ease: "power2.inOut"
-//   });
-// });
+.add(() => {
+  gsap.to(window, {
+    duration: 0.6,
+    scrollTo: ".high_end",
+    ease: "power2.inOut"
+  });
+});
 
 
 
