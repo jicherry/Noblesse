@@ -217,42 +217,42 @@ gsap.from([".montserrat", ".born"], {
 
 
 // main_page 이미지 등장
-gsap.from("img[src='img/mainpage2.png']", {
-  x: 150,
-  opacity: 0,
-  duration: 1.5,
-  ease: "power3.out",
-  scrollTrigger: {
-    trigger: "img[src='img/mainpage2.png']",
-    start: "top 70%",
-    toggleActions: "restart none none none"  
-  }
-});
+// gsap.from("img[src='img/mainpage2.png']", {
+//   x: 150,
+//   opacity: 0,
+//   duration: 1.5,
+//   ease: "power3.out",
+//   scrollTrigger: {
+//     trigger: "img[src='img/mainpage2.png']",
+//     start: "top 70%",
+//     toggleActions: "restart none none none"  
+//   }
+// });
 
-gsap.from("img[src='img/mainpage3.png']", {
-  x: -150,
-  opacity: 0,
-  duration: 1.5,
-  ease: "power3.out",
-  scrollTrigger: {
-    trigger: "img[src='img/mainpage3.png']",
-    start: "top 80%",
-    toggleActions: "restart none none none"  
-  }
-});
+// gsap.from("img[src='img/mainpage3.png']", {
+//   x: -150,
+//   opacity: 0,
+//   duration: 1.5,
+//   ease: "power3.out",
+//   scrollTrigger: {
+//     trigger: "img[src='img/mainpage3.png']",
+//     start: "top 80%",
+//     toggleActions: "restart none none none"  
+//   }
+// });
 
-gsap.from(["img[src='img/mainpage4.png']", "img[src='img/mainpage5.png']"], {
-  x: 150,
-  opacity: 0,
-  duration: 1.5,
-  ease: "power3.out",
-  stagger: 0.3,
-  scrollTrigger: {
-    trigger: "img[src='img/mainpage4.png']",
-    start: "top 80%",
-    toggleActions: "restart none none none" 
-  }
-});
+// gsap.from(["img[src='img/mainpage4.png']", "img[src='img/mainpage5.png']"], {
+//   x: 150,
+//   opacity: 0,
+//   duration: 1.5,
+//   ease: "power3.out",
+//   stagger: 0.3,
+//   scrollTrigger: {
+//     trigger: "img[src='img/mainpage4.png']",
+//     start: "top 80%",
+//     toggleActions: "restart none none none" 
+//   }
+// });
 
 
 //md_page img 등장
