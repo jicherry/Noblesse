@@ -751,6 +751,14 @@ img {
   padding-top: 8.5rem;
 }
 
+.mobile_imges img:nth-of-type(6) {
+  padding-top: 7.5rem;
+}
+
+.mobile_imges img:nth-of-type(8) {
+  padding-top: 8rem;
+}
+
 .mobile {
   overflow: hidden;
 }
@@ -761,6 +769,7 @@ img {
   width: max-content;
   white-space: nowrap;
   position: absolute;
+  flex-shrink: 0;
 }
 
 .shadow_top {
@@ -920,16 +929,16 @@ img {
 
   .main_textbox2  {
     position: absolute;
-    bottom: 10%;
+    bottom: 11.5%;
     left: 5%;
   }
 
   .main_textbox2 p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .main_textbox2 h1 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     transform: translateX(-0.2rem);
   }
 
